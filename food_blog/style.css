@@ -1,0 +1,106 @@
+body, h1, h2, h3, h4, h5, h6, p, span, a {
+    font-family: "Times New Roman", Georgia, Serif;
+}
+img{
+    max-width: 100%;
+}
+/* header section style */
+
+.header-section{
+    padding-top: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #fff;
+    width: 100%;
+}
+.header-section a{
+    padding: .7rem 1rem;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .8);
+    letter-spacing: .2rem;
+}
+.header-section a:hover{
+    background-color: #ccc;
+}
+
+
+/* slider section style */
+
+.slider-section{
+    background: url(/28-08-2023/img/hamburger.jpg) no-repeat center center ;
+    background-size: cover;
+    height:45rem;
+}
+.slider-section h3{
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+    font-size: 2.5rem;
+    opacity: .6;
+    letter-spacing: .2rem;
+}
+
+
+/* content section style */
+.content-section{
+    margin-top: 5rem;
+}
+.after-leout{
+    position: relative;
+}
+.after-leout::after{
+    content: "";
+    background: rgba(255, 255, 255, .2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.content-section h3{
+    letter-spacing: .2rem;
+}
+.content-section span , .content-section p{
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+.content-section span{
+    letter-spacing: .3rem;
+
+}
+/* service saction style */
+
+
+.service-section{
+    margin-top: 10rem;
+}
+.services{
+    padding: 2rem;
+}
+.services h3{
+    font-size: 1.4rem;
+    letter-spacing: .2rem;
+}
+.services p{
+    opacity: .7;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+/* contact section style  */
+.contact-section{
+    margin-bottom: 10rem;
+}
+.contact-section input{
+    display: block;
+    width: 100%;
+    overflow: visible;
+    border: 2px solid #fff;
+    border-bottom: 2px solid rgba(0, 0, 0, .2);
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.contact-section input:last-child{
+    padding: 3rem;
+}
